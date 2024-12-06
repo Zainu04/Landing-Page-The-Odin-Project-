@@ -130,16 +130,32 @@ p {
 .third {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 70px;
+    padding: 100px;
+
 
 }
 
 .quote {
-    font-size: 24px;
-    font-style: italic;
+    font-size: 22px;
     font-weight: 100;
 }
 
 .credits {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    font-weight:800;
 
+}
+
+.fourth .container {
+    background-color:#4685eb;
+    margin: 50px;
+    color:white;
+
+   
+}
+
+.fourth {
+    background-color: white;
 }
