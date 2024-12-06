@@ -1,0 +1,145 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    height: 72px;
+    flex:1;
+}
+
+.left-side {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900px;
+    margin:55px;
+    padding:40px;
+    font-size: 24px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.right-side {
+    display: flex;
+    gap: 30px;
+    flex:1;
+    justify-content:end;
+    align-items: center;
+    margin-right: 35px;
+    padding:40px;
+}
+
+.first {
+    background-color: #1F2937;
+    display: flex;
+    color:white;
+    flex:1;
+    padding: 85px;
+    margin-top: -40px;
+    height: 200px;
+    gap: 15px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+}
+
+button {
+    background-color: #4685eb;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    height: 200px;
+    width:auto;
+    margin-right: 10px;
+    
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: -7px;
+
+}
+p {
+    font-size: 13px;
+    font-weight: 100;
+    width: 250px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex:1;
+    padding: 30px;
+}
+
+.container img  {
+    height:150px;
+    width: 150px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color:#1F2937;
+    flex:1;
+    
+}
+
+.second {
+    text-align: center;
+}
+
+.info {
+    max-width:200px;
+}
+
+.text {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 70px;
+
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.credits {
+
+}
